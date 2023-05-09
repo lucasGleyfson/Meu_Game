@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'Bungee Inline', cursive;
+}
+
+body,
+input,
+textarea {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: normal;
+}
+
+body {
+    font-weight: normal;
+}
+
+header {
+    padding: 16px 0;
+    background-color: rgb(84, 15, 119);
+    color: white;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 20px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.store-front {
+    width: 700px;
+    height: 380px;
+    margin-right: 32px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2,
+section .container p {
+    margin-bottom: 16px;
+}
+
+section {
+    color: rgb(84, 15, 119);
+}
+
+.subtitle {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+#aboutgame .container,
+#contacts .container {
+    display: block;
+}
+
+.about-methods,
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 400px;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 18px;
+}
+
+
+
+.about-methods h3,
+.contact-methods h3 {
+    font-size: 32px;
+    margin-bottom: 16px;
+
+}
+
+.container p,
+.container li {
+    text-align: justify;
+    margin-bottom: 16px;
+}
+
+
+form input,
+form textarea,
+form button {
+    width: 400px;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+.social-links img {
+    height: 50px;
+}
+
+form button {
+    background-color: rgb(84, 15, 119);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #9407b7;
+}
+
+input:focus,
+textarea:focus {
+    outline-color: rgb(84, 15, 119);
+}
+
+footer {
+    background-color: rgb(84, 15, 119);
+    color: #fff;
+    padding: 16px 0;
+}
